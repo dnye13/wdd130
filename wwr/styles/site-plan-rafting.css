@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #EAF0CE;
+    --secondary-color: #0A481E;
+    --accent1-color: #0AD3FF;
+    --accent2-color: #274690;
+
+    --nav-background-color: #EAF0CE;
+    --nav-link-color: #0A481E;
+    --nav-hover-link-color: #0AD3FF;
+    --nav-hover-background-color: #274690;
+}
