@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
 :root {
     --primary-color: var(#EAF0CE);
     --secondary-color: var(#0A481E);
     --accent1-color: var(#0AD3FF);
     --accent2-color: var(#274690);
 
-    --heading-font: var(Roboto, serif);
-    --paragraph-font: var(Open Sans , serif);
+    --heading-font: var(Roboto, sans-serif);
+    --paragraph-font: var(Open Sans , sans-serif);
 
     --nav-background-color: var(#EAF0CE);
     --nav-link-color: var(#0A481E);
@@ -14,13 +16,13 @@
 }
 
 body {
-    font-family: var(Open Sans , serif);
+    font-family: var(Open Sans , sans-serif);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(Roboto, serif);
+    font-family: var(Roboto, sans-serif);
     color: var(#EAF0CE);
 }
 
