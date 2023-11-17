@@ -1,20 +1,16 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
-
-
 :root {
-    --primary-color: val(#EAF0CE);
-    --secondary-color: val(#0A481E);
-    --accent1-color: val(#0AD3FF);
-    --accent2-color: val(#274690);
+    --primary-color: var(#EAF0CE);
+    --secondary-color: var(#0A481E);
+    --accent1-color: var(#0AD3FF);
+    --accent2-color: var(#274690);
 
     --heading-font: var(Roboto, serif);
     --paragraph-font: var(Open Sans , serif);
 
-    --nav-background-color: val(#EAF0CE);
-    --nav-link-color: val(#0A481E);
-    --nav-hover-link-color: val(#0AD3FF);
-    --nav-hover-background-color: val(#274690);
+    --nav-background-color: var(#EAF0CE);
+    --nav-link-color: var(#0A481E);
+    --nav-hover-link-color: var(#0AD3FF);
+    --nav-hover-background-color: var(#274690);
 }
 
 body {
