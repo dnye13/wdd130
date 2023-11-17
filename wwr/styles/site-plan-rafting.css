@@ -1,11 +1,60 @@
-:root {
-    --primary-color: #EAF0CE;
-    --secondary-color: #0A481E;
-    --accent1-color: #0AD3FF;
-    --accent2-color: #274690;
 
-    --nav-background-color: #EAF0CE;
-    --nav-link-color: #0A481E;
-    --nav-hover-link-color: #0AD3FF;
-    --nav-hover-background-color: #274690;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+
+:root {
+    --primary-color: val(#EAF0CE);
+    --secondary-color: val(#0A481E);
+    --accent1-color: val(#0AD3FF);
+    --accent2-color: val(#274690);
+
+    --heading-font: var(Roboto, serif);
+    --paragraph-font: var(Open Sans , serif);
+
+    --nav-background-color: val(#EAF0CE);
+    --nav-link-color: val(#0A481E);
+    --nav-hover-link-color: val(#0AD3FF);
+    --nav-hover-background-color: val(#274690);
+}
+
+body {
+    font-family: var(Open Sans , serif);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(Roboto, serif);
+    color: var(#EAF0CE);
+}
+
+header {
+    padding: 20px;
+    background-color: var(#0AD3FF);
+}
+
+p{
+    padding: 25px;
+}
+
+nav {
+    background-color: var(#EAF0CE);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(#0A481E);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(#0A481E);
+}
+
+nav a:hover {
+    color: var(#0AD3FF);
+    background-color: var(#274690);
 }
