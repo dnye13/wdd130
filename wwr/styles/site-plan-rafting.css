@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 
 :root {
-    --primary-color: var(#EAF0CE);
-    --secondary-color: var(#0A481E);
+    --primary-color: var(#0A481E);
+    --secondary-color: var(#EAF0CE);
     --accent1-color: var(#0AD3FF);
     --accent2-color: var(#274690);
 
     --heading-font: var(Roboto, sans-serif);
     --paragraph-font: var(Open Sans , sans-serif);
 
-    --nav-background-color: var(#EAF0CE);
-    --nav-link-color: var(#0A481E);
+    --nav-background-color: var(#0A481E);
+    --nav-link-color: var(#EAF0CE);
     --nav-hover-link-color: var(#0AD3FF);
     --nav-hover-background-color: var(#274690);
 }
