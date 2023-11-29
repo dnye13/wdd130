@@ -34,24 +34,28 @@ body {
 }
 
 h1 {
+    font-size: 2rem;
     font-family: 'Permanent Marker', cursive;
 }
 
 header {
     background-color: var(--nav-background-color);
     color: #0A481E;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 120px 1fr 2fr;
     align-items: center;
+    margin: 1rem auto;
+    border-bottom: 1px solid #274690;
+    max-width: 1000px;
 }
 
 header img {
-    max-width: 100%;
+    margin: 0 0.25rem 0 1rem;
+    width: 150px;
     height: auto;
 }
-
 nav a {
     color: var(#EAF0CE);
     margin: 10px;
