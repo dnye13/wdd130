@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 
 :root {
-    --primary-color: var(#EAF0CE);
-    --secondary-color: var(#0A481E);
-    --accent1-color: var(#0AD3FF);
-    --accent2-color: var(#274690);
+    --primary-color: #EAF0CE;
+    --secondary-color: #0A481E;
+    --accent1-color: #0AD3FF;
+    --accent2-color: #274690;
 
-    --heading-font: var(Roboto, sans-serif);
-    --paragraph-font: var(Open Sans , sans-serif);
+    --heading-font: Roboto, sans-serif;
+    --paragraph-font: Open Sans , sans-serif;
 
-    --nav-background-color: var(#EAF0CE);
-    --nav-link-color: var(#0A481E);
-    --nav-hover-link-color: var(#0AD3FF);
-    --nav-hover-background-color: var(#274690);
+    --nav-background-color: #EAF0CE;
+    --nav-link-color: #0A481E;
+    --nav-hover-link-color: #0AD3FF;
+    --nav-hover-background-color: #274690;
 }
 
 body,
@@ -39,12 +39,12 @@ h1 {
 }
 
 header {
-    background-color: var(--nav-background-color);
+    background-color: #EAF0CE;
     color: #0A481E;
     padding: 20px;
     text-align: center;
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
+    grid-template-columns: 200px 1fr;
     align-items: center;
     margin: 1rem auto;
     border-bottom: 1px solid #274690;
@@ -56,8 +56,18 @@ header img {
     width: 150px;
     height: auto;
 }
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
 nav a {
-    color: var(#EAF0CE);
+    color: #0A481E;
     margin: 10px;
     text-decoration: none;
 }
@@ -95,8 +105,9 @@ article {
     text-align: center;
 }
 
-article img {
+.hero article img {
     float: right;
+    width: 225px;
 }
 
 section {
@@ -104,7 +115,7 @@ section {
 }
 
 h2 {
-    color: var(--primary-color);
+    color: #274690;
     justify-content: center;
 }
 
@@ -113,25 +124,27 @@ section p {
 }
 
 footer {
-    background-color: #0AD3FF;
-    color: #EAF0CE;
+    background-color: #EAF0CE;
+    color: #274690;
     padding: 10px;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.sociallinks {
+.social-links {
     margin-top: 10px;
     display: flex;
     justify-content: flex-end;
 }
 
-.sociallinks a {
+.social-links a {
     margin: 0 10px;
     text-decoration: none;
     border-bottom: none;
 }
 
-.sociallinks img {
+.social-links img {
     width: 30px;
     height: 30px;
 }
@@ -152,6 +165,7 @@ footer {
 
 
 .adventure-figure {
+    display: flex;
     text-align: center;
     margin: 10px;
     height: 500px;
@@ -159,6 +173,7 @@ footer {
 }
 
 .adventure-img {
+    display: flex;
     max-width: 100%;
     height: auto;
     justify-content: center;
@@ -171,6 +186,7 @@ figcaption {
 }
 
 .adventure-figure img {
+    display: flex;
     max-width: 200px;
     height: auto;
 }
