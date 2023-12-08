@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <meta name="description" content="The Rafting Site Contact Page" />
+    <meta name="author" content="Dermot Nye" />
+    <link rel="stylesheet" href="styles/rafting.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="images/logo.jpg" alt="Rafting Site logo"
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+          <h1>Contact Us!</h1>
+          <p>We would love to answer your questions and hear your feedback!<br> Here are some ways to contact us.</p>
+          <div class="picture-grid">
+              <figure class="figure-pic">
+                  <img src="../images/michael.jpg" alt="Michael Scott - Owner">
+                  <figcaption>Michael Scott<br>Owner</figcaption>
+              </figure>
+              <figure class="figure-pic">
+                  <img src="images/jim.jpg" alt="Jim Halpert">
+                  <figcaption>Jim Halpert<br>Customer Service</figcaption>
+              </figure>
+              <figure class="figure-pic">
+                  <img src="images/dwight.jpg" alt="Employee 3">
+                  <figcaption>Dwight Schrute<br>Tour Guide</figcaption>
+              </figure>
+          </div>
+      </section>
+      <section class="location-flex">
+          <div class="address-container">
+              <h2>Headquarters</h2>
+              <h3>South Lake Tahoe, California, United States</h3>
+              <p><i class="bi bi-geo-alt-fill"> 1099 Lakeview Ave</i></p>
+              <p><i class="bi bi-envelope"> ouremail@email.com</i></p>
+              <p><i class="bi bi-telephone">+1-123-456-7890</i></p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11162.328314865248!2d-119.97746691891969!3d38.94038664900986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1702074060173!5m2!1sen!2sus" width="400" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+      <form>
+          <h2>Send Us a Message</h2>
+          <p>Send us a message and we'll respond within 24 hours.</p>
+
+          <label for="user-name">Name</label>
+          <input type="text" id="user-name" name="user-name">
+
+          <label for="user-email">Email</label>
+          <input type="text" id="user-email" name="user-email">
+
+          <fieldset class="purpose-section">
+              <legend>Purpose of Contact</legend>
+              <div class="radio-item">
+                  <label for="general">General Inquiry</label>
+                  <input type="radio" id="general" name="purpose" value="general" checked>
+              </div>
+              <div class="radio-item">
+                  <label for="reservation-question">Reservation Question</label>
+                  <input type="radio" id="reservation-question" name="purpose" value="reservation">
+              </div>
+              <div class="radio-item">
+                  <label for="website-suggestion">Website Suggestion</label>
+                  <input type="radio" id="website-suggestion" name="purpose" value="general">
+              </div>
+          </fieldset>
+
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="contact-message" rows="5"></textarea>
+
+          <div class="checkbox-item">
+              <label for="subscribe">Please subscribe me to the monthy newsletter</label>
+              <input type="checkbox" id="subscribe" name="subscribe">
+          </div>
+
+          <button type="submit">Send</button>
+      </form>
+  </main>
+    <footer>
+      <p>&copy;2023 WhiteWater Rafting Company</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook" /></a>
+
+        <a href="https://twitter.com"><img src="images/twitter.png" alt="X/twitter" /></a>
+
+        <a href="https://www.instagram.com"><img src="images/instagram.jpg" alt="Instagram" /></a>
+      </div>
+    </footer>
+  </body>
+</html>
